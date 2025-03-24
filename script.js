@@ -1,3 +1,6 @@
+if (/Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  window.location.href = "mobile.html";
+}
 document.addEventListener('DOMContentLoaded', () => {
     // Cache DOM elements
     const themeSwitcher = document.querySelector('.theme-switcher');
